@@ -27,15 +27,15 @@
 }
 
 .main-nav ul {
-  display: none;
+  /*display: none;*/
   padding: 0;
   list-style: none;
   clear: both;
 }
 
-.main-nav:hover ul {
+/*.main-nav:hover ul {
   display: block;
-}
+}*/
 
 .main-nav li {
   margin-right: .4em;
@@ -72,6 +72,6 @@
     display: inline;
   }
   .icon-menu {
-    visibility: hidden;
+    display: none;
   }
 }
